@@ -29,6 +29,17 @@
   background: #f5f5f5;
   border-radius: 4px;
   position: relative;
+  transition: 0.3s;
+}
+
+.empresa a {
+  text-decoration: none;
+  color: #525252;
+}
+
+.empresa:hover {
+  box-shadow: 0px 1px 6px #0a080a60;
+  cursor: pointer;
 }
 
 .empresa-flex {
